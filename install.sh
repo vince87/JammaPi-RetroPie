@@ -7,11 +7,10 @@
 sudo apt-get update
 sudo apt-get install -y git libjpeg-dev dialog
 cd ~
-git clone https://github.com/vince87/JammaPi.git
+git clone https://github.com/vince87/JammaPi-RetroPie.git
 cd ~/JammaPi
 git reset --hard origin/master
 git pull
-chmod +x install.sh
 
 if (test -d "/home/pi/JammaPi"); then
         echo "Clonato correttamente!"
